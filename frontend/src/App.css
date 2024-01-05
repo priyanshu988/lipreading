@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body{
+  height: 100%;
+}
+.appBody{
+  height: 100%;
+}
+.videoScreen{
+  min-width: 80vh;
+  width: 117vh;
+  height: 390px;
+}
+.video-sidebar {
+  min-width: 10vh;
+  width: 40vh;
+  height: 90vh;
+  color: white;
+  padding: 2%;
+  margin-right: 2%;
+  background-color: #2a2a2a;
+}
+.videosection{
+  display: flex;
+  flex-direction: row;
+
+}
+.video-rightsidebar{
+  width: 35vh;
+  background-color: #bebebe;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.optionbtn {
+    min-width: 40%;
+    height: 20%;
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+/* .videobtn {
+  
+} */
+
+.langQuestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questionHeading{
+  color: #004D73;
+  font-weight: bold;
+}
+
+.upperoptions {
+  width: 40%;
+  display: flex;
+  padding: 4%;
+  
+}
+.loweroptions {
+  width: 40%;
+  display: flex;
+  padding: 4%;
+  padding-top:0 ;
+  
+}
+.option1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.option2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.option3 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.option4 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.submitbtn{
+  width: 20%;
+}
+
+.sidebar{
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
+  padding: 1%;
+}
+.list-group-item{
+  margin-bottom: 2%;
+}
+.dashboardBody{
+  height: 100%;
+}
+.dashboard {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.dashboardBody {
+  background-color: lightgray;
+}
+/* .card {
+  width: 30%;
+  max-width: 30%;
+  max-height: 20%;
+  margin-top: 3%;
+  margin-left: 2%;
+} */
+.cardAmt {
+  font-size: xxx-large;
+}
+
+.sidebarContent {
+  display: flex;
+
+}
+
+.progress-circluar {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.progress-heading{
+  font-size: 150%;
+}
+.attemptCount{
+  color: #3a9bdc;
+  font-size: 300%;
+}
